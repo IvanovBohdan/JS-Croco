@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Paint</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+    	<div class="users">
+    		<div class="users__header">USERS ONLINE</div>
+    		<div class="users-box"></div>
+    	</div>
+    		<div class="game">
+    				<div class="paint">
+    					<canvas id="canv" width="600" height="600">Your browser is too old!</canvas>
+    				</div>
+    				<input type="color" name="color" id="color">
+    				<input type="range" min="3" max="70" step="3" value="10" id="size">
+    				<div class="chat">
+		    			<div class="message-box">
+		    				<div class="message">
+		    				</div>  
+		    			</div>
+		    			<div class="chat-controls">
+		    				<input type="textarea" id="chat-text" autocomplete="off">
+		    				<input type="button" id="send" value=" Send ">
+		    			</div>
+    			</div>
+    		</div>
+    </div> 
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
