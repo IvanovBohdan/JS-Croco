@@ -1,4 +1,4 @@
-		let ws = new WebSocket('ws://localhost:5000');
+		let ws = new WebSocket('ws://192.168.1.5:5000');
 		let canvas = document.getElementById('canv');
 		let block = document.getElementsByClassName('paint')[0];
 
